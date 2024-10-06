@@ -166,7 +166,7 @@ const Contact = () => {
               <div className="mb-3">
                 <textarea 
                   name="message" 
-                  rows="4" 
+                  rows="5" 
                   placeholder="Message" 
                   required 
                   className="w-full p-3 bg-slate-100 text-gray-900 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
