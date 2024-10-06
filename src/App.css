@@ -1,0 +1,29 @@
+*{
+  font-family: 'Manrope';
+  
+}
+.gray-image{
+  filter:grayscale(1);
+}
+.customBlue{
+  color: rgb(13, 140, 224);
+}
+
+.slick-slider button.slick-arrow{width:40px; height: 40px;}
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-prev:before, .slick-next:before{
+  font-size: 30px!important;
+  color:rgb(164, 170, 179)!important;
+}
+.slick-prev:hover:before, .slick-prev:focus:before, .slick-next:hover:before, .slick-next:focus:before{
+  color: #1b91cf!important;
+  
+}
+
